@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="Testimonios" />
+    <meta name="keywords"  content="sistema solar" />
+    <meta name="author"  content="Irvin" />
+    <link rel="icon" href="img/ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script/jQuery.js"></script>
+    <script src="script/scriptTestimonio.js"></script>
+    <title>Testimonios</title>
+</head>
+
+<body onload="agregar()">
+
+    <section id="login" class="borde">
+        <img src="img/login.jpg" width="30%" alt="login" id="imgLogin"><br>
+        <div id="login2">
+            <form action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="name"><br>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="pass">
+                <input type="button" value="log-in" class="button button1" id="btnLogin">
+                <label id="errorMsg">Rellena los datos correctamente</label>
+            </form>
+        </div>
+        <div id="login3">
+            <label>Bienvenido:</label>
+            <label for="name" id="userName"></label>
+            <input type="button" value="log-out" class="button button1" id="btnLogOut">
+        </div>
+    </section>
+    <br><br>
+
+    <header>
+        <h1>Testimonios</h1>
+    </header>
+
+    <nav id="menu" class="topright button">
+        <ul>
+            <li><a title="Inicio" href="index.html"><button class="button button1" id="btn_Inicio">Inicio</button></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Nuestros usuarios opinan:</h3><br>
+
+        <div id="info" class="home">
+        </div>
+    </main>
+
+    <br>
+    <footer id="footer">
+        <div class="center">
+            <a href="Visor.html"><input type="button" id="boton1" class="button button1" value="Visor"></a>
+            <a href="Contacto.html">
+                <h2>Contacto:<sub> +506 61327926</sub></h2>
+            </a>
+            <a href="mailto:206720527@ina.cr"><input type="button" id="boton2" class="button button1" value="206720527@ina.cr"></a>
+            <a href="AcercaDe.html"><input type="button" id="boton1" class="button button1" value="Acerca de"></a>
+        </div>
+    </footer>
+    <script>
+        loadUser();
+        salir();
+    </script>
+
+</body>
+
+</html>

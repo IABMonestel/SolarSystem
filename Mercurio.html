@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="Mercurio" />
+    <meta name="keywords"  content="sistema solar" />
+    <meta name="author"  content="Irvin" />
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon" href="img/ico.jpg" type="image/x-icon">
+
+    <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+    <script src="script/jQuery.js"></script>
+    <script src="script/jquery.slides.js"></script>
+    <script src="script/scriptLog.js"></script>
+
+    <title>Mercurio</title>
+</head>
+
+<body>
+    <section id="login" class="borde">
+        <img src="img/login.jpg" width="30%" alt="login" id="imgLogin"><br>
+        <div id="login2">
+            <form action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="name"><br>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="pass">
+                <input type="button" value="log-in" class="button button1" id="btnLogin">
+                <label id="errorMsg">Rellena los datos correctamente</label>
+            </form>
+        </div>
+        <div id="login3">
+            <label>Bienvenido:</label>
+            <label for="name" id="userName"></label>
+            <input type="button" value="log-out" class="button button1" id="btnLogOut">
+        </div>
+    </section>
+    <br><br>
+    <header>
+        <h1>Mercurio</h1>
+    </header>
+
+    <nav id="menu" class="topright button">
+        <ul>
+            <a title="Inicio" href="index.html"><button class="button button1" id="btn_Mercurio">Inicio</button></a>
+            <a href="Venus.html"><button type="button" class="button button1" id="btn_Venus">Venus</button></a>
+            <a href="Tierra.html"><button type="button" class="button button1" id="btn_Tierra">Tierra</button></a>
+            <a href="Luna.html"><button type="button" class="button button1" id="btn_Luna">Luna</button></a>
+            <a href="Marte.html"><button type="button" class="button button1" id="btn_Marte">Marte</button></a>
+            <a href="Jupiter.html"><button type="button" class="button button1" id="btn_Jupiter">Jupiter</button></a>
+            <a href="Saturno.html"><button type="button" class="button button1" id="btn_Saturno">Saturno</button></a>
+            <a href="Urano.html"><button type="button" class="button button1" id="btn_Urano">Urano</button></a>
+            <a href="Neptuno.html"><button type="button" class="button button1" id="btn_Neptuno">Neptuno</button></a>
+        </ul>
+    </nav>
+
+    <section class="home">
+        <div class="in-flex borde">
+            <h3>Características: </h3>
+            <p>Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño. Forma parte de los denominados planetas interiores o terrestres y carece de satélites naturales al igual que Venus. Mercurio es uno de los cuatro planetas rocosos
+                o sólidos; es decir, tiene un cuerpo rocoso, como la Tierra. Este planeta es el más pequeño de los cuatro, con un diámetro de 4879 km en el ecuador. Mercurio está formado aproximadamente por un 70% de elementos metálicos y un 30% de silicatos.
+                La densidad de este planeta es la segunda más grande de todo el sistema solar, siendo su valor de 5430 kg/m³, solo un poco menor que la densidad de la Tierra. La densidad de Mercurio se puede usar para deducir los detalles de su estructura
+                interna.
+            </p>
+        </div>
+        <div class="in-flex borde">
+            <!--slider js con controles-->
+            <div class="slides">
+                <img src="img/Mercurio.jpg" alt="Mercurio">
+                <img src="img/MercuriovsTierra.png" alt="Mercurio">
+                <img src="img/Mercurio1.jpg" alt="Mercurio">
+                <img src="img/MercurioInterno.jpg" alt="Mercurio">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="home">
+        <div class="in-flex borde">
+            <h3>Órbita y rotación</h3>
+            <p>La órbita de Mercurio es la más excéntrica entre todos los planetas que orbitan el Sol. En la imagen anexa se ilustran los efectos de la excentricidad, mostrando la órbita de Mercurio sobre una órbita circular que tiene el mismo semieje. La
+                elevada velocidad del planeta cuando está cerca del perihelio hace que cubra esta mayor distancia en un intervalo de solo cinco días. El tamaño de las esferas, inversamente proporcional a la distancia al Sol, es usado para ilustrar la
+                distancia variable heliocéntrica. Esta distancia variable al Sol, combinada con la rotación planetaria de Mercurio de 3:2 alrededor de su eje, resulta en complejas variaciones de la temperatura de su superficie, pasando de los –185°C durante
+                las noches hasta los 430 °C durante el día.
+            </p>
+        </div>
+        <div class="in-flex borde">
+            <a target="_blank" href="img/Mercurio-Orbita.png">
+                <img src="img/Mercurio-Orbita.png" width="90%" alt="Órbita de Mercurio" title="Órbita de Mercurio" /></a>
+        </div>
+    </section>
+    <hr>
+    <section class="home">
+        <div class="in-flex borde">
+            <h3>Observación de las fases mercurianas</h3>
+            <p class="parrafo">Como la Luna, Mercurio exhibe fases vistas desde la Tierra, siendo nueva en conjunción inferior y llena en conjunción superior. El planeta deja de ser invisible en ambas ocasiones por la virtud de este ascenso y ubicación acuerdo con el Sol
+                en cada caso. La primera y última fase ocurre en máxima elongación este y oeste, respectivamente, cuando la elongación este y oeste, respectivamente, cuando la separación de Mercurio del rango del Sol es de 18,5° en el periastro y 28,3
+                en el apoastro. En máxima elongación oeste, Mercurio se eleva antes que el Sol y en la este después que el Sol. Mercurio alcanza una conjunción inferior cada 116 días de media, pero este intervalo puede cambiar de 111 a 121 días por la
+                excentricidad de la órbita del planeta.
+            </p>
+        </div>
+        <div class="in-flex borde">
+            <div class="centrar">
+                <iframe width=" 100% " height="400px" src="https://www.youtube.com/embed/m8gzA7sT5AE " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="center">
+        <hr>
+        <a href="Trivia.html "><img src="img/birrete.jpg " alt="trivia "></a>
+        <a href="Trivia.html ">
+            <h3>Sección de Trivia</h3>
+        </a>
+    </div>
+
+    <footer>
+        <hr>
+        <div class="center">
+            <a href="Visor.html"><input type="button" id="boton1" class="button button1" value="Visor"></a>
+            <a href="Contacto.html">
+                <h2>Contacto:<sub> +506 61327926</sub></h2>
+            </a>
+            <a href="mailto:206720527@ina.cr"><input type="button" id="boton2" class="button button1" value="206720527@ina.cr"></a>
+            <a href="AcercaDe.html"><input type="button" id="boton1" class="button button1" value="Acerca de"></a>
+            <a href="ExperienciaUsuario.html"><input type="button" id="boton1" class="button button1" value="Testimonios"></a>
+            <br>
+        </div>
+    </footer>
+
+    <!--script slide js-->
+    <script>
+        $(function() {
+            $(".slides ").slidesjs({
+                play: {
+                    active: true,
+                    // [boolean] Generate the play and stop buttons.
+                    // You cannot use your own buttons. Sorry.
+                    effect: "slide ",
+                    // [string] Can be either "slide " or "fade ".
+                    interval: 7000,
+                    // [number] Time spent on each slide in milliseconds.
+                    auto: true,
+                    // [boolean] Start playing the slideshow on load.
+                    swap: true,
+                    // [boolean] show/hide stop and play buttons
+                    pauseOnHover: true,
+                    // [boolean] pause a playing slideshow on hover
+                    restartDelay: 500
+                        // [number] restart delay on inactive slideshow
+                }
+            });
+        });
+    </script>
+    <!--fin script-->
+    <script>
+        loadUser();
+        salir();
+    </script>
+
+</body>
+
+</html>
